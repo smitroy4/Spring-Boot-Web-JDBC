@@ -20,7 +20,6 @@ public class SpringWebJdbcApplication {
         p.setPprice(2900);
 
         System.out.println("Product Created: " + p);
-        System.out.println("Product Created: " + p);
 
 
 
