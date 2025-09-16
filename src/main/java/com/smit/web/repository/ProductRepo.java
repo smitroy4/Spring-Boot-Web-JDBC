@@ -26,7 +26,7 @@ public class ProductRepo {
     }
 
     public void save(Products p) {
-        String sql = "insert into Products (pid, pname, pprice) values(?,?,?)";
+        String sql = "insert into products (pid, pname, pprice) values(?,?,?)";
         int rows = jdbc.update(sql, p.getPid(), p.getPname(), p.getPprice());
         System.out.println(rows + " effected");
 //        System.out.println("Product Added");
