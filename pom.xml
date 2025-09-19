@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.smit</groupId>
-	<artifactId>Spring-Web-JDBC</artifactId>
+	<artifactId>Spring-JDBC</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Spring-Web-JDBC</name>
 	<description>Spring Web-JDBC Project</description>

@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
-public class SpringWebJdbcApplication {
+public class SpringJdbcApplication {
 
     public static void main(String[] args) {
-        SpringApplication app = new SpringApplication(SpringWebJdbcApplication.class);
+        SpringApplication app = new SpringApplication(SpringJdbcApplication.class);
         app.setWebApplicationType(WebApplicationType.NONE);
         ApplicationContext context = app.run(args);
 
