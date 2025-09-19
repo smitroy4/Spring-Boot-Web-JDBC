@@ -27,7 +27,7 @@ src/main/java/com/smit/web/
 
 ## Requirements
 
-- **Java 21** (or compatible JDK)
+- **Java 21** (**updated to Java 25)
 - **Maven 3.9+**
 - **PostgreSQL 15+**
 - IDE (IntelliJ / Eclipse / VS Code)
